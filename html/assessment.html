@@ -10,7 +10,7 @@
 
     <h1>Course Signup Page</h1>
     <p>Please Note: First Name, Last Name, Pssword and Email are required</p>
-    <form action="">
+    <form action="home.html" method="GET">
         <label for="fname">First Name: </label>
         <input type="text" name="fname" id="fname" placeholder="First Name" required>
 
@@ -20,7 +20,25 @@
         <label for="fname">Email: </label>
         <input type="text" name="email" id="email" placeholder="name@email.com" required>
         <label for="password">Password: </label>
-        <input type="text" name="fname" id="password" value="password" placeholder="Password">
+        <input type="password" name="password" id="password" value=""  required>
+        <p></p>
+
+        <p>Are you over the age of 18?</p>
+
+        <label for="yes">Yes:</label>
+        <input type="radio" name="age" value="yes" id="yes">
+
+        <label for="no">No:</label>
+        <input type="radio" name="age" value="no" id="no" required>
+
+        <p>Do you have a Credit Card or PayPal?</p>
+        <select name="card" id="" required>
+            <option value="cc">Credit Card</option>
+            <option value="pp">PayPal</option>
+        </select>
+        <p></p>
+        <input type="submit" name="Sign Up" id="dignup" value="Sign Up">
+
     </form>
     
 </body>
