@@ -1,24 +1,13 @@
 h1{
     font-family:Arial;
 }
-
 p{
-    font-family: monospace;
-}
+    font-family: "Sofia", sans-serif;
+    
+  }
 
-body{
-    font-size: 20px;
-}
-
-#two{
-    font-size: 1.0em;
-}
-
-p{
-    font-style: italic;
-    font-weight: bold;
-}
-
-h1{
-    text-align: center;
+p#one{
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
