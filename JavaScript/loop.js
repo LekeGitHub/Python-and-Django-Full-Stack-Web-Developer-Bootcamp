@@ -10,5 +10,5 @@ while(x <= 10){
     
     // console.log("adding 1 to x ");
     
-    x = x+1;
+    x++;
 }
