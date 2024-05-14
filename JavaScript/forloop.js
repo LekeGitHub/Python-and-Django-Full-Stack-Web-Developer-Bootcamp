@@ -47,18 +47,20 @@
 //    }
 // }
 
-var fname = prompt("Please enter your first name")
-var lname = prompt("Please enter your last name")
+var fname = prompt("Please enter your first name").toUpperCase
+var lname = prompt("Please enter your last name").toUpperCase
 var age = prompt("How old are you? ")
 hieght = prompt("Please enter your hieght: ")
-var pet = prompt("What is your pet name? ")
+var pet = prompt("What is your pet name? ").toUpperCase
 alert("Thank you! thats it.")
 
 
-if (fname[0] == lname[0] && age >= 20 || age <= 30 && hieght >= 170 && pet[-0] == 'y'){
+if (fname[0] === lname[0] && age >= 20 || age <= 30 && hieght >= 170 && pet[-0] == 'Y'){
    console.log("Hello comrade!, You passed the spy test");
+   alert("Hello comrade!, You passed the spy test")
 }else{
    console.log("Sorry nothing to see here")
+   alert("Sorry nothing to see here")
 }
 
 
