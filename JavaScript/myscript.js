@@ -1,7 +1,7 @@
-alert("Welcome to your bank");
+// alert("Welcome to your bank");
 
-var deposite = prompt("How much will you like to deposite today? ")
+// var deposite = prompt("How much will you like to deposite today? ")
 
-alert("You've deposited: "+deposite)
+// alert("You've deposited: "+deposite)
 
-console.log("You are a cool person!");
+// console.log("You are a cool person!");
