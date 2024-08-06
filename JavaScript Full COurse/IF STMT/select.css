@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    margin: 50px 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+#mySubmit{
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+#mySubmit:hover{
+    background-color: green;
+    color: white;
+}
+
+.input{
+    padding: 10px 20px;
+    font-size: 3rem;
+    border-radius: 10px;
+}
+
