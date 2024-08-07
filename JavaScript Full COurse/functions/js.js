@@ -19,7 +19,7 @@ function add(x, y){
 }
 
 let answer = add(2,3)
-console.log(answer)
+//console.log(answer)
 
 function subtract(x, y){
     return x - y
@@ -33,7 +33,7 @@ function divide(x, y){
     return x / y
 }
 
-console.log(divide(10, 6));
+//console.log(divide(10, 6));
 
 function isEven(num){
     // Using Tenary Operation
@@ -48,7 +48,7 @@ function isEven(num){
     // }
 }
 
-console.log(isEven(11))
+//console.log(isEven(11))
 
 function notEven(num){
 
@@ -62,4 +62,18 @@ function notEven(num){
     //     return false;
     // }
 }
-console.log(notEven(10));
+//console.log(notEven(10));
+
+
+function isValidEmail(email){
+
+    return email.includes("@") ? true : false;
+
+    // if(email.includes("@")){
+    //     return true;
+    // }else{
+    //     return false;
+    // }
+}
+console.log(isValidEmail("adetleke@gmail.com"));
+console.log(isValidEmail("adetlekegmail.com"));
