@@ -76,4 +76,4 @@ function isValidEmail(email){
     // }
 }
 console.log(isValidEmail("adetleke@gmail.com"));
-console.log(isValidEmail("adetlekegmail.com"));
+console.log(isValidEmail("adetgmail.com"));
