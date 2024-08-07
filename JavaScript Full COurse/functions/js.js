@@ -36,21 +36,30 @@ function divide(x, y){
 console.log(divide(10, 6));
 
 function isEven(num){
-    if(num % 2 === 0){
-        return true;
-    }
-    else{
-        return false;
-    }
+    // Using Tenary Operation
+    return num % 2 === 0 ? true : false;
+
+    // Using If else statement below
+    // if(num % 2 === 0){
+    //     return true;
+    // }
+    // else{
+    //     return false;
+    // }
 }
 
 console.log(isEven(11))
 
 function notEven(num){
-    if(num % 2 != 0){
-        return true;
-    }else{
-        return false;
-    }
+
+    // Using Tenary Operation
+    return num % 2 != 0 ? true : false;
+
+    // Using If else statement below
+    // if(num % 2 != 0){
+    //     return true;
+    // }else{
+    //     return false;
+    // }
 }
 console.log(notEven(10));
