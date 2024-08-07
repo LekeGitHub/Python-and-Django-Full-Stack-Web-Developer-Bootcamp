@@ -20,3 +20,13 @@ function add(x, y){
 
 let answer = add(2,3)
 console.log(answer)
+
+function subtract(x, y){
+    return x - y
+}
+
+function multiply(x, y){
+    return x * y
+}
+
+console.log(multiply(10, 6));
