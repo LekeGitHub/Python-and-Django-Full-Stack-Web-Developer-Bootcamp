@@ -29,4 +29,28 @@ function multiply(x, y){
     return x * y
 }
 
-console.log(multiply(10, 6));
+function divide(x, y){
+    return x / y
+}
+
+console.log(divide(10, 6));
+
+function isEven(num){
+    if(num % 2 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isEven(11))
+
+function notEven(num){
+    if(num % 2 != 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(notEven(10));
