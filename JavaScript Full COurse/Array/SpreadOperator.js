@@ -11,6 +11,16 @@
 // console.log(minNum)
 
 
-let userName = "Oluwa Leke"
-let letters = [...userName].join("");
-console.log(letters)
+// let userName = "Oluwa Leke"
+// let letters = [...userName].join("");
+// console.log(letters)
+
+let fruits = ["Apple", "Orange", "Banana"];
+
+let vegetables = ["Carrot", "Spinach", "potatoes"];
+
+let food = [...fruits, ...vegetables];
+console.log(food);
+
+let newFruits = [...fruits]
+console.log(newFruits)
