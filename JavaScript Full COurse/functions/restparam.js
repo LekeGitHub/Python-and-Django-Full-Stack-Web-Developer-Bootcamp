@@ -47,3 +47,6 @@
 
 // const total = getAverage(80, 60, 78, 96, 90);
 // console.log(`Your average is ${total}`);
+
+
+// Function to combine strings together
