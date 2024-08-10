@@ -10,7 +10,7 @@ const passwordLength = 12;
 const isUppercase = true;
 const isLowercase = true;
 const isNumbers = true;
-const isSymbol = true;
+const isSymbols = true;
 
 const password = passwordGenerator(passwordLength, 
                                    isUppercase, 
