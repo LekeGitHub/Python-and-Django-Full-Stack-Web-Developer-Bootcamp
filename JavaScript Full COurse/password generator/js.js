@@ -3,6 +3,22 @@
 
 function passwordGenerator(passwordLength, isUppercase, isLowercase, isNumbers, isSymbols){
 
+    const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+    const uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const numberChar = "0123456789";
+    const symbolChar = "!@#$%^&*()_+-=";
+
+    let allowedChars = "";
+    let password = "";
+
+    allowedChars += isLowercase ? lowercaseChars : "";
+    allowedChars += isUppercase ? uppercaseChar : "";
+    allowedChars += isNumbers ? numberChar : "";
+    allowedChars += isSymbols ? symbolChar : "";
+
+    if(length >= 0){
+        console.log(`Password must have atleast one character`)
+    }
     return "";
 }
 
