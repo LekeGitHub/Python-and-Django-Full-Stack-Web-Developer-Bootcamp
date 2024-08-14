@@ -16,7 +16,7 @@ function passwordGenerator(passwordLength, isUppercase, isLowercase, isNumbers, 
     allowedChars += isNumbers ? numberChar : "";
     allowedChars += isSymbols ? symbolChar : "";
 
-    if(length >= 0){
+    if(passwordLength <= 0){
         console.log(`Password must have atleast one character`)
     }
     return "";
