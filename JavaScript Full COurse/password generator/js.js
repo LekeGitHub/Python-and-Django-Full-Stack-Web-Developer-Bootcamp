@@ -17,9 +17,17 @@ function passwordGenerator(passwordLength, isUppercase, isLowercase, isNumbers, 
     allowedChars += isSymbols ? symbolChar : "";
 
     if(passwordLength <= 0){
-        console.log(`Password must have atleast one character`)
+        console.log(`Password must have atleast one character`);
     }
-    return "";
+    if(allowedChars.length === 0){
+        return `Atleast 1 set of character needs to be selected`;
+    }
+
+    for(let i = 0; i < passwordLength; i++){
+        const randomIndex = Math.floor(Math.random() * allowedChars.length);
+        password += allowedChars[randomIndex];
+    }
+    return password;
 }
 
 const passwordLength = 12;
