@@ -1,23 +1,29 @@
+//Restart Button
 const reset = document.querySelector("#reset");
 
-const r1b1 = document.querySelector("#r1b1");
-const r1b2 = document.querySelector("#r1b2");
-const r1b3 = document.querySelector("#r1b3");
-const r2b1 = document.querySelector("#r2b1");
-const r2b2 = document.querySelector("#r2b2");
-const r2b3 = document.querySelector("#r2b3");
-const r3b1 = document.querySelector("#r3b1");
-const r3b2 = document.querySelector("#r3b2");
-const r3b3 = document.querySelector("#r3b3");
+// Grab all squares
+const squares = document.querySelectorAll("td");
 
-reset.addEventListener('click',function(){
-    r1b1.textContent = "";
-    r1b2.textContent = "";
-    r1b3.textContent = "";
-    r2b1.textContent = "";
-    r2b2.textContent = "";
-    r2b3.textContent = "";
-    r3b1.textContent = "";
-    r3b2.textContent = "";
-    r3b3.textContent = "";
-});
+// clear squares
+function clearSquares(){
+    for(let i = 0; i < squares.length; i++){
+        squares[i].textContent = "";
+    }    
+}
+reset.addEventListener('click', clearSquares)
+
+// add x to squares
+
+function changeMarker(){
+    if(this.textContent === ""){
+        this.textContent = "X";
+    }else if(this.textContent === "X"){
+        this.textContent = "O";
+    }else{
+        this.textContent = "";
+    }
+}
+
+for(i = 0; i < squares.length; i++){
+    squares[i].addEventListener('click', changeMarker)
+}

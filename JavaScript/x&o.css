@@ -1,14 +1,8 @@
-#tab{
-    margin: auto;
-    margin-top: 50px;
-    padding: auto;
-    border: solid 5px;
-    border-color: black;
+td{
+    height: 150px;
+    width: 150px;
     text-align: center;
-    font-size: 10rem;
+    border: 5px solid black;
+    font-size: 100px;
 }
-.box{
-    padding: 50px;
-    border: solid 5px;
-    border-color: black;
-}
+
