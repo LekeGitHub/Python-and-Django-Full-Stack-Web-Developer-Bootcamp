@@ -1,0 +1,14 @@
+#tab{
+    margin: auto;
+    margin-top: 50px;
+    padding: auto;
+    border: solid 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 10rem;
+}
+.box{
+    padding: 50px;
+    border: solid 5px;
+    border-color: black;
+}
