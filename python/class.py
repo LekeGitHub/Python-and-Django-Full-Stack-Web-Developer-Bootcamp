@@ -57,7 +57,20 @@ class Dog(Animal):
     def eat(self):
         print("Dog is Eating")
 
-myDog = Dog()
-myDog.whoAmI()
-myDog.eat()
-myDog.bark()
+# myDog = Dog()
+# myDog.whoAmI()
+# myDog.eat()
+# myDog.bark()
+
+class Book():
+
+    def __init__(self, title, author, pages) -> None:
+        self.title = title
+        self.author = author
+        self.pages = pages
+    
+    def __str__(self) -> str:
+        return "Title: {}, Author: {}, Pages: {}".format(self.title,self.author,self.pages) 
+
+b = Book("Python", "Jose", 200)
+print(b)
