@@ -72,5 +72,15 @@ class Book():
     def __str__(self) -> str:
         return "Title: {}, Author: {}, Pages: {}".format(self.title,self.author,self.pages) 
 
+    def __len__(self):
+        return self.pages
+    
+    def __del__(self):
+        print("a book is destroyed")
+    
+    
+
+
 b = Book("Python", "Jose", 200)
-print(b)
+print(b.author)
+del b

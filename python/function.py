@@ -28,8 +28,25 @@
 
 # Class
 
-class Sample():
-    pass
+# class Sample():
+#     pass
 
-x = Sample()
-print(type(x))
+# x = Sample()
+# print(type(x))
+
+Breakfast = "Garri Cassava Eba".split()
+Lunch = "Rice Beans Bread".split()
+Dinner = "Yam Amala Iyan".split()
+
+diet = []
+
+for b in Breakfast:
+    for l in Lunch:
+        for d in Dinner:
+            diet.append((b,l,d))
+
+            if diet == ('Eba', 'Beans', 'Yam'):
+                print("Yes")
+            else:
+                print("No")
+
